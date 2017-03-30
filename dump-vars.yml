@@ -2,5 +2,5 @@
 - hosts: all
 #  become_method: dzdo
   roles:
-    - { role: ansible-dumpall, dumpall_host_destination: '/var/lib/awx/vardump', dumpall_guest_destination: '~/vardump' }
+    - { role: ansible-dumpall, dumpall_guest_destination: '~/vardump' }
 
