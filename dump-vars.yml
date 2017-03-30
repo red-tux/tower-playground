@@ -1,6 +1,6 @@
 ---
 - hosts: all
-  beocme_method: dzdo
+  become_method: dzdo
   roles:
     - { role: ansible-dumpall, dumpall_host_destination: '/tmp/', dumpall_guest_destination: '/tmp/' }
 
